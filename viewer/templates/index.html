@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>
+        Выбранная картинка
+    </title>
+</head>
+<body>
+    {% if not result_image %}
+    Подходящих картинок нет.
+    {% else %}
+    <p>Осталось просмотров: {{ result_image.needed_amount_of_shows }}</p>
+    <img src="{{ result_image.url }}" style="height: 400px">
+    {% endif %}
+</body>
+</html>

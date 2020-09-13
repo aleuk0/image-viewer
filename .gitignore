@@ -1,0 +1,9 @@
+*.db
+.vscode
+venv
+config/static
+__pycache__/
+*.py[cod]
+*.pdf
+*.jpg
+*.csv
